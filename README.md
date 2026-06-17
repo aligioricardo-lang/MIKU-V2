@@ -1,5 +1,4 @@
- align="center">
-   <a href="https://github.com/LOSTHACKEROFC">
+ <a href="https://github.com/LOSTHACKEROFC">
    <img src="https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png">
 
 </p>
