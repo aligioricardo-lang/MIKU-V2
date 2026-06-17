@@ -1,12 +1,12 @@
-<p align="center">
+ align="center">
    <a href="https://github.com/LOSTHACKEROFC">
-   <img src="https://i.imgur.com/QlGoQsb.jpeg">
+   <img src="https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png">
 
 </p>
-<h1 align="center"> 𝐌𝐈𝐊𝐔-𝐕2 🌈❤️
+<h1 align="center"> ALGY XZ1
 </h1> 
 <p align="center"> 
-  𝐇𝐄𝐋𝐋𝐎 𝐆𝐔𝐘𝐒 , 𝐈 𝐀𝐌 𝐌𝐈𝐊𝐔 𝐕2 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐂𝐇𝐈𝐑𝐀𝐆 𝐘𝐎𝐔𝐓𝐔𝐁𝐄𝐑. 𝐅𝐔𝐋𝐋𝐘 𝐁𝐀𝐒𝐄𝐃 𝐎𝐍 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄 (𝐌𝐃)
+  HELLO GUYS , I AM ALGY  CREATED BY ALIGIO RICARDO TECH . FULLY BASED ON  MULTI DEVICE (ARM)
 
 <p align="center">
   <a href="https://github.com/LOSTHACKEROFC/MIKU-V2/fork">
@@ -35,13 +35,10 @@
 ### ✧ Use `Heroku Deploy Method 2` for easy and more convenient deploy(Trust me).    
 
 
-### ✧ Deploy Video tutorial:
-- Here's the [video tutorial](https://youtube.com/c/chiragyoutuber) on how to deploy and host Miku bot.
-- [Video Guide](https://youtube.com/c/chiragyoutuber)
-</br>
 
 
-## ✧✧✧ Why use MIKU-V2 as your Base?
+
+## ✧✧✧ Why use Algy xz1 as your Base?
 
 ```
 1. Copyright Free.
@@ -57,7 +54,7 @@
 ✧ The main motto of this project is to provide Beginner Devs a base without any limitations 😊.
 ✧ Check "Credits" section and Support Them too.
 
--regards CHIRAG YOUTUBER
+-regards ALIGIO RICARDO
 ```
 </br>
 
@@ -73,7 +70,6 @@
 <a href="https://miku-v2-qr-2.losthackerofc.repl.co/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
 </a>
 
-#### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/LOSTHACKEROFC/MIKU-V2/fork).
 
 #### ✧ After that edit the `README.md` file and change the template link present on line no:`39` with your forked repo link.(Example: `https://github.com/<your GitHub username>/MIKU-V2`)
 
@@ -109,24 +105,8 @@ heroku/nodejs
 ```
 
 
-## ✧✧✧ Join My Whatsapp Group for Support
 
-<a href="https://chat.whatsapp.com/DSTm5Xmx3iaIgDh2gqLsWP"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</a>
 
-## ✧✧✧ CMD Deployment Method
-```
-git clone https://github.com/LOSTHACKEROFC/MIKU-V2.git
-cd MIKU-V2
-npm start
-```
-
-### ✧ Requirements for CMD istallation:
-- Git
-- Node.js
-- Libwebp
-- FFmpeg
-</br> 
 
 ## ✧✧✧ Termux Deployment Method
 ```js
@@ -167,17 +147,3 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ## ✧ Contribution:
 - I don't have any contributor in this project. Feel free to contribute.
-
-
-
-## ✧ Help Me:
-- [`Follow`](https://github.com/LOSTHACKEROFC/#follow) me on GitHub to make me feel motivated.
-- Give my project a ⭐ if you liked it.
-
-     
-## ✧ Credits and Appreciation:
-
--   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
--   `CHIRAG YOUTUBER` team for [TINA](https://github.com/LOSTHACKEROFC/TINA).
--   `INSTAGRAM` for [INSTA](https://instagram.com/chirag__bhatnagar).
--   `YOUTUBE` for [YOUTUBE](https://youtube.com/c/chiragyoutuber)
