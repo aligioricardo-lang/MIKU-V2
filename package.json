@@ -1,6 +1,6 @@
 {
- "name": "miku-md",
- "description": "Multi Device Whatsapp Bot By Xeon",
+ "name": "Algy-Xz1",
+ "description": "Multi Device Whatsapp Bot By lycan",
  "version": "3.0.0",
  "main": "index.js",
  "type": "commonjs",
@@ -10,7 +10,7 @@
  "keywords": [
   "termux",
   "whatsapp",
-  "2021",
+  "2026",
   "wabase-md",
   "base",
   "baileys-md",
@@ -18,7 +18,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "Fantox (FantoX001)",
+ "author": "Aligio (AligioXz1)",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "^4.3.0",
@@ -85,10 +85,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/DGXeon/CheemsBot-MD3.git"
+  "url": "https://github.com/aligioricardo-lang/MIKU-V2.git"
  },
  "bugs": {
-  "url": "https://github.com/DGXeon/CheemsBot-MD3/issues"
+  "url": "https://github.com/aligioricardo-lang/MIKU-V2/issues"
  },
- "homepage": "https://github.com/DGXeon/CheemsBot-MD3#readme"
+ "homepage": "https://github.com/aligioricardo-lang/MIKU-V2#readme"
 }
