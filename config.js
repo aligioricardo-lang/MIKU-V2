@@ -7,15 +7,15 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['919536476115']
-global.OwnerNumber = ['919536476115']
-global.ownertag = ['919536476115']
-global.BotName = "𝑴𝑰𝑲𝑼-𝑽2"
-global.packname = "𝑴𝑰𝑲𝑼-𝑽2"
-global.author = "𝑩𝒀 - 𝑪𝑯𝑰𝑹𝑨𝑮 𝒀𝑶𝑼𝑻𝑼𝑩𝑬𝑹"
-global.OwnerName = "CHIRAG YOUTUBER"
+global.Owner = ['258857575209']
+global.OwnerNumber = ['258857575209']
+global.ownertag = ['258834822805']
+global.BotName = "Algy Xz1"
+global.packname = "Algy Xz1"
+global.author = "BY-ALIGIO TECH"
+global.OwnerName = "ALIGIO RICARDO "
 global.BotSourceCode = "https://github.com/LOSTHACKEROFC/MIKU-V2"
-global.SupportGroupLink = "https://chat.whatsapp.com/JvIdTV61RUs4NTmYrtV6qz"
+global.SupportGroupLink = "https://chat.whatsapp.com/LthgoMAPNn10LTGofKKO6B"
 global.sessionName = "session"
 
 // Prefix //
@@ -23,11 +23,11 @@ global.sessionName = "session"
 global.prefa = ['#'] 
 
 
-global.location = "UTTRAKHAND, India"
+global.location = "MOZAMBIQUE, Maputo"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://youtube.com/c/chiragyoutuber"
+global.websitex = ""
 global.lolhuman = "KaysaS"
 
 
