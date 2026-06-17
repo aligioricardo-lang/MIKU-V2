@@ -120,7 +120,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/LOSTHACKEROFC/MIKU-V2
+git clone https://github.com/aligioricardo-lang/MIKU-V2.git
 cd MIKU-V2
 npm start
 ```
