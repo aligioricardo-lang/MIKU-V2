@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Miku Bot MD', {
+console.log(color(figlet.textSync('Algy Bot', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -26,8 +26,8 @@ console.log(color(figlet.textSync('Miku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: FantoX001','aqua'))
+console.log(color('\nHello, I am Aligio, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub: Aligioxz1','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
@@ -71,7 +71,7 @@ Miku.ev.on('groups.update', async pea => {
        try {
        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
+       ppgc = 'https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
@@ -101,13 +101,13 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppuser = await Miku.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://wallpapercave.com/wp/wp10524609.jpg'
+                    ppuser = 'https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png'
                 }
 
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://wallpapercave.com/wp/wp10524609.jpg'
+                    ppgroup = 'https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png'
                 }
 
                 let targetname = await Miku.getName(num)
@@ -121,7 +121,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 Mikutext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *Miku Nakano*, Welcome to ${metadata.subject}.
+I am *Aligio Ricardo *, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
