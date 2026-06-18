@@ -154,7 +154,7 @@ let _sewa = require("./lib/sewa");
 const sewa = JSON.parse(fs.readFileSync('./database/sewa.json'))
 
 
-const time = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+const time = moment.tz('Mozambique/Maputo').format('DD/MM HH:mm:ss')
 const ucap = moment(Date.now()).tz('Asia/Kolkata').locale('id').format('a')
 var buln = ['/01/', '/02/', '/03/', '/04/', '/05/', '/06/', '/07/', '/08/', '/09/', '/10/', '/11/', '/12/'];
 var myHari = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -1193,13 +1193,13 @@ let cron = require('node-cron')
                                },
                   message: { 
                                 "videoMessage": { 
-                                "title": `𝑴𝑰𝑲𝑼-𝑽2`,
-                                "h": `𝑴𝑰𝑲𝑼-𝑽2`,
+                                "title": `ALGY-XZ1`,
+                                "h": `ALGY-XZ1`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
-                                'caption': `CHIRAG YOUTUBER`,
+                                'caption': `ALIGIO TECH`,
                                 'jpegThumbnail': fs.readFileSync('./Assets/miku.mp4')
-                                       }
+}
                                       }
                                    } 
 
@@ -1342,9 +1342,9 @@ const ftroli = {
 
 
     const menulist = `
-    𝑯𝑬𝑳𝑳𝑶 𝑴𝒀 𝑩𝑨𝑩𝒀 𝑮𝑰𝑹𝑳 ❤︎❦︎${pushname} 𝑲𝑨𝑰𝑺𝑰 𝑯𝑶 👋㋛︎. 𝐼 𝐴𝑀 ${global.BotName},  𝑩𝑶𝑻 𝑪𝑹𝑬𝑨𝑻𝑶𝑹➪: 𝑪𝑯𝑰𝑹𝑨𝑮 𝒀𝑶𝑼𝑻𝑼𝑩𝑬𝑹 ✌︎𝐓𝐀𝐊𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐔𝐒𝐀𝐆𝐄 𝐈𝐍𝐓𝐎 𝐍𝐄𝐗𝐓 𝐋𝐄𝐕𝐄𝐋𖣘✪.
+    𝑯𝑬𝑳𝑳𝑶 𝑴𝒀 𝑩𝑨𝑩𝒀 𝑮𝑰𝑹𝑳 ❤︎❦︎${pushname} 𝑲𝑨𝑰𝑺𝑰 𝑯𝑶 👋㋛︎. 𝐼 𝐴𝑀 ${global.BotName},  𝑩𝑶𝑻 𝑪𝑹𝑬𝑨𝑻𝑶𝑹➪: ALIGIO TECH ✌︎𝐓𝐀𝐊𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐔𝐒𝐀𝐆𝐄 𝐈𝐍𝐓𝐎 𝐍𝐄𝐗𝐓 𝐋𝐄𝐕𝐄𝐋𖣘✪.
         
-       「 ꧁ՏYՏTᗴᗰ IᑎᖴO꧂ 」
+       「 SYSTEM INFO 」
     
     Speed : ${latensie.toFixed(4)} miliseconds
     Up Time : ${runtime(process.uptime())}
@@ -1372,7 +1372,7 @@ const ftroli = {
     
     TYPE *#𝑀𝐸𝑁𝑈* 𝒐𝒓 𝒑𝒓𝒆𝒔𝒔 𝒂𝒏𝒚 𝒃𝒖𝒕𝒕𝒐𝒏 𝒃𝒆𝒍𝒐𝒘 𝒕𝒐 𝒔𝒕𝒂𝒓𝒕 𝒖𝒔𝒊𝒏𝒈 *${global.BotName}*
     
-    ©️ *${global.BotName}* 𝑨𝑳𝑳 𝑹𝑰𝑮𝑯𝑻𝑺 𝑹𝑬𝑽𝑬𝑹𝑺𝑬𝑫 𝑩𝒀 ☞︎︎︎: 𝐂𝐇𝐈𝐑𝐀𝐆 𝐘𝐎𝐔𝐓𝐔𝐁𝐄𝐑😇🤪
+    ©️ *${global.BotName}* 𝑨𝑳𝑳 𝑹𝑰𝑮𝑯𝑻𝑺 𝑹𝑬𝑽𝑬𝑹𝑺𝑬𝑫 𝑩𝒀 ☞︎︎︎: ALIGIO TECH 👾
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1401,12 +1401,12 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by 𝑪𝑯𝑰𝑹𝑨𝑮 𝒀𝑶𝑼𝑻𝑼𝑩𝑬𝑹",
+    title:"Powered by ALIGIO TECH",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
-    mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
-    sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
+    mediaUrl: 'https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png',
+    sourceUrl: "https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png"
     }}*/
 
     }
@@ -1434,7 +1434,7 @@ case 'me': case 'profile': case 'p':
     
           } catch (e) {
      
-      pfp ='https://wallpapercave.com/wp/wp10524580.jpg'
+      pfp ='https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png'
     }
 
      const profilexx = `*「 ☞︎︎︎ 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 𝐈𝐍𝐅𝐎 ☜︎︎︎  」*\n\n*User Name* : ${pushname}\n*Bio* : ${bioo}\n*Group Admin Status* : ${adn}\n*Level* : ${levelMenu}\n*Exp* : ${xpMenu} out of ${reqXp}\n*Role* : ${role}`
@@ -1496,14 +1496,8 @@ if (isBan) return reply(mess.ban)
 if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
-*GROUP 1*
-https://chat.whatsapp.com/JvIdTV61RUs4NTmYrtV6qz
-
-*GROUP 2*
-https://chat.whatsapp.com/JvIdTV61RUs4NTmYrtV6qz
-
-*GROUP 3*
-https://chat.whatsapp.com/JvIdTV61RUs4NTmYrtV6qz`)
+*GROUP 1* 
+https://chat.whatsapp.com/LthgoMAPNn10LTGofKKO6B`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -1517,29 +1511,19 @@ break
 
 case 'support': case 'supportgc':
     
-    reply(`*𝐌𝐘 𝐃𝐄𝐕𝐋𝐎𝐏𝐄𝐑 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝑫𝑶 𝑵𝑶𝑻 𝑭𝑶𝑹𝑮𝑬𝑻 𝑻𝑶 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑩𝑬 ➪:* http://youtube.com/c/chiragyoutuber 
-    𝐅𝐎𝐋𝐋𝐎𝐖 𝐌𝐄 𝐎𝐍 𝐆𝐈𝐓𝐇𝐔𝐁 😁❤️
-*𝐌𝐘 𝐑𝐄𝐏𝐎:* https://github.com/LOSTHACKEROFC/MIKU-V2               
+    reply(``)
 
-𝐃𝐎 𝐍𝐎𝐓 𝐅𝐎𝐑𝐆𝐄𝐓 𝐓𝐎 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐌𝐘 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🥺💞
-
-*𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋* - https://youtu.be/kOGUbBhhAzA`)
     break
 
 case 'repo': case 'botrepo':
      
-     reply(`𝐅𝐎𝐋𝐋𝐎𝐖 𝐌𝐄 𝐎𝐍 𝐆𝐈𝐓𝐇𝐔𝐁 😁❤️
-*𝐌𝐘 𝐑𝐄𝐏𝐎:* https://github.com/LOSTHACKEROFC/MIKU-V2               
-
-𝐃𝐎 𝐍𝐎𝐓 𝐅𝐎𝐑𝐆𝐄𝐓 𝐓𝐎 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐌𝐘 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🥺💞
-
-*𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋* - https://youtu.be/kOGUbBhhAzA`)
+     reply(``)
 
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━━━━〈  📛 𝐍𝐒𝐅𝐖 𝐌𝐄𝐍𝐔 📛  〉━━━━━━*\n\n🤤➪𝐇𝐄𝐍𝐓𝐀𝐈𝐕𝐈𝐃𝐄𝐎
+        reply(` *━━━━━━〈  📛 𝐍𝐒𝐅𝐖 𝐌𝐄𝐍𝐔 📛  〉━━━━━━*\n\n🤤➪𝐇𝐄𝐍𝐓𝐀𝐈𝐕𝐈𝐃𝐄𝐎
 🤤➪𝐁𝐋𝐎𝐖𝐉𝐎𝐁𝐆𝐈𝐅
 🤤➪𝐇𝐍𝐄𝐊𝐎
 🤤➪𝐌𝐀𝐒𝐓𝐔𝐑𝐁𝐀𝐓𝐈𝐎𝐍
@@ -1572,7 +1556,7 @@ case 'nsfwmenu':
 case 'reaction': case 'react': case 'reactions':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *━━━━━━〈  📍 𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍𝐒 📍  〉━━━━━━*\n\n🎃𝐁𝐎𝐍𝐊
+            reply(` *━━━━━━〈  📍 𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍𝐒 📍  〉━━━━━━*\n\n🎃𝐁𝐎𝐍𝐊
 🎃➪𝐂𝐑𝐘
 🎃➪𝐁𝐔𝐋𝐋𝐘
 🎃➪𝐂𝐔𝐃𝐃𝐋𝐄
@@ -3690,7 +3674,7 @@ break
 case 'handsomecheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@CHIRAG YOUTUBER*`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@ALIGIO TECH*`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
@@ -3698,7 +3682,7 @@ Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*
 case 'beautifulcheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@CHIRAG YOUTUBER*`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@ALIGIO TECH*`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -3715,7 +3699,7 @@ case 'awesomecheck':
                       case 'uglycheck':
                         if (isBan) return reply(mess.banned)
                         if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@CHIRAG YOUTUBER*`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@ALIGIO TECH*`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
@@ -3725,7 +3709,7 @@ Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%
 case 'charactercheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@CHIRAG YOUTUBER*`)
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} *@ALIGIO TECH*`)
 					const Mikutttt =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = Mikutttt[Math.floor(Math.random() * Mikutttt.length)]
 					Miku.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
@@ -3818,7 +3802,7 @@ case 'charactercheck':
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
      ]
                    const Mikudareww = dare[Math.floor(Math.random() * dare.length)]
-                   buffer = await getBuffer(`https://wallpapercave.com/wp/wp10524609.jpg`)
+                   buffer = await getBuffer(`https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png`)
                    Miku.sendMessage(from, { image: buffer, caption: '*You have chosen Dare*\n\n'+ Mikudareww }, {quoted:m})
                    break
                        
@@ -3918,7 +3902,7 @@ case 'truth':
                  "do you play pubg, if you then send ur id number"
              ]
                            const mikutruthww = truth[Math.floor(Math.random() * truth.length)]
-                           buffer = await getBuffer(`https://wallpapercave.com/w/wp6299641`)
+                           buffer = await getBuffer(`https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1`)
                            Miku.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ mikutruthww }, {quoted:m})
                            break
 
@@ -4817,7 +4801,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `𝑯𝑬𝑳𝑳𝑶 𝑱𝑨𝑨𝑵 *${pushname}* 𝑲𝑨𝑰𝑺𝑬 𝑯𝑶 𝑩𝑨𝑩𝒀 𝑮𝑰𝑹𝑳,
 
-𝐈 𝐀𝐌 𝐌𝐈𝐊𝐔-𝐕2 𝐀𝐍𝐃 𝐌𝐘 𝐃𝐄𝐕𝐋𝐎𝐏𝐄𝐑 𝐈𝐒 ➪𝑪𝑯𝑰𝑹𝑨𝑮 𝒀𝑶𝑼𝑻𝑼𝑩𝑬𝑹 ❤️🥰
+I AM ALGY XZ1 AND MY DEVLOPER IS ➪ALIGIO TECH 👾
 
 🔰 𝐌𝐲 𝐏𝐑𝐄𝐅𝐈𝐗 :  ${prefix}
 
@@ -4825,7 +4809,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
  
 𝐒𝐔𝐁𝐂𝐑𝐈𝐁𝐄 𝐍𝐎𝐖 : ${websitex}
 
- *━━━━━━〈  🎆 𝐂𝐎𝐑𝐄 🎆  〉━━━━━━*
+ *━━━━━━〈  🎆 𝐂𝐎𝐑𝐄 🎆  〉━━━━━━*
 
 💥𝐏𝐑𝐎𝐅𝐈𝐋𝐄 
 
@@ -4847,7 +4831,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 💥𝐒𝐂𝐑𝐈𝐏𝐓
  
- *━━━━━━〈  🎀 𝐐𝐖𝐍𝐄𝐑 🎀  〉━━━━━━*
+ *━━━━━━〈  🎀 𝐐𝐖𝐍𝐄𝐑 🎀  〉━━━━━━*
 
 😎𝐒𝐄𝐋𝐅
 
@@ -4869,7 +4853,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 😎𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓
 
- *━━━━━━〈  ⭕ 𝐆𝐑𝐎𝐔𝐏 ⭕  〉━━━━━━*
+ *━━━━━━〈  ⭕ 𝐆𝐑𝐎𝐔𝐏 ⭕  〉━━━━━━*
 
 👻𝐏𝐑𝐎𝐌𝐎𝐓𝐄
 
@@ -4897,7 +4881,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 👻𝐍𝐒𝐅𝐖
 
- *━━━━━━〈  ➰ 𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 ➰  〉━━━━━━*
+ *━━━━━━〈  ➰ 𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊 ➰  〉━━━━━━*
  
 😈𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊𝐆𝐂
 
@@ -4919,7 +4903,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 😈𝐀𝐍𝐓𝐈𝐖𝐀𝐌𝐄
 
- *━━━━━━〈  🔍 𝐒𝐄𝐀𝐑𝐂𝐇 🔍  〉━━━━━━*
+ *━━━━━━〈  🔍 𝐒𝐄𝐀𝐑𝐂𝐇 🔍  〉━━━━━━*
 
 😼𝐏𝐋𝐀𝐘
 
@@ -4959,7 +4943,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 😼𝐑𝐈𝐍𝐆𝐓𝐎𝐍𝐄
 
- *━━━━━━〈  🔰 𝐂𝐎𝐍𝐕𝐄𝐑𝐓 🔰  〉━━━━━━*
+ *━━━━━━〈  🔰 𝐂𝐎𝐍𝐕𝐄𝐑𝐓 🔰  〉━━━━━━*
 
 🌈𝐒𝐓𝐈𝐂𝐊𝐄𝐑
 
@@ -4981,7 +4965,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🌈𝐓𝐎𝐀𝐔𝐃𝐈𝐎
 
- *━━━━━━〈  🔉 𝐀𝐔𝐃𝐈𝐎 🔉  〉━━━━━━*
+ *━━━━━━〈  🔉 𝐀𝐔𝐃𝐈𝐎 🔉  〉━━━━━━*
 
 🌠𝐁𝐀𝐒𝐒
 
@@ -5007,7 +4991,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🌠𝐒𝐐𝐔𝐈𝐑𝐑𝐄𝐋
 
- *━━━━━━〈  📍 𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍𝐒 📍  〉━━━━━━*
+ *━━━━━━〈  📍 𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍𝐒 📍  〉━━━━━━*
 
 🌊𝐁𝐎𝐍𝐊
 
@@ -5059,7 +5043,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🌊𝐂𝐑𝐈𝐍𝐆𝐄
 
- *━━━━━━〈  🌌 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 🌌  〉━━━━━━*
+ *━━━━━━〈  🌌 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 🌌  〉━━━━━━*
 
 📩𝐏𝐋𝐀𝐘
 
@@ -5091,7 +5075,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 📩𝐌𝐄𝐃𝐈𝐀𝐅𝐈𝐑𝐄
 
- *━━━━━━〈  🈴 𝐖𝐄𝐄𝐁 🈴  〉━━━━━━*
+ *━━━━━━〈  🈴 𝐖𝐄𝐄𝐁 🈴  〉━━━━━━*
 
 🎯𝐂𝐑𝐎𝐒𝐏𝐋𝐀𝐘
 
@@ -5139,7 +5123,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🎯𝐌𝐀𝐍𝐆𝐀
 
- *━━━━━━〈  ♨️ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐕𝐄 ♨️  〉━━━━━━*
+ *━━━━━━〈  ♨️ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐕𝐄 ♨️  〉━━━━━━*
 
 🕸️𝐀𝐍𝐈𝐌𝐄𝐐𝐔𝐎𝐓𝐄
 
@@ -5151,7 +5135,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🕸️𝐖𝐈𝐊𝐈
 
- *━━━━━━〈  🎗 𝐎𝐓𝐇𝐄𝐑 🎗  〉━━━━━━*
+ *━━━━━━〈  🎗 𝐎𝐓𝐇𝐄𝐑 🎗  〉━━━━━━*
 
 🤖𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐌𝐄𝐌𝐄
 
@@ -5159,7 +5143,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🤖𝐃𝐀𝐑𝐊𝐉𝐎𝐊𝐄
 
- *━━━━━━〈  🎐 𝐅𝐔𝐍 🎐  〉━━━━━━*
+ *━━━━━━〈  🎐 𝐅𝐔𝐍 🎐  〉━━━━━━*
 
 🙊𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍
 
@@ -5195,7 +5179,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 🙉𝐂𝐇𝐀𝐑𝐀𝐂𝐓𝐄𝐑𝐂𝐇𝐄𝐂𝐊
 
- *━━━━━━〈  🪁 𝐄𝐒𝐒𝐄𝐍𝐓𝐈𝐀𝐋𝐒 🪁  〉━━━━━━*
+ *━━━━━━〈  🪁 𝐄𝐒𝐒𝐄𝐍𝐓𝐈𝐀𝐋𝐒 🪁  〉━━━━━━*
 
 👾𝐓𝐑𝐀𝐍𝐒𝐋𝐀𝐓𝐄
 
@@ -5203,7 +5187,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 👾𝐓𝐎𝐋𝐄𝐓𝐓𝐄𝐑
 
- *━━━━━━〈  💥 𝐍𝐒𝐅𝐖 💥  〉━━━━━━*
+ *━━━━━━〈  💥 𝐍𝐒𝐅𝐖 💥  〉━━━━━━*
 
 🍁 𝑻𝒀𝑷𝑬 " *${prefix}nsfw* " 𝑻𝑯𝑬𝑵 𝑬𝑵𝑨𝑩𝑳𝑬 𝑵𝑺𝑭𝑾 (𝑻𝑯𝑰𝑺 𝑭𝑬𝑨𝑻𝑼𝑹𝑬 𝑼𝑺𝑬 𝑶𝑵𝑳𝒀 𝑨𝑫𝑴𝑰𝑵!) 
 
@@ -5214,7 +5198,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 
  『  *${global.BotName}*  』
- 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀➪ *𝐂𝐇𝐈𝐑𝐀𝐆 𝐘𝐎𝐔𝐓𝐔𝐁𝐄𝐑*
+ 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀➪ *ALIGIO TECH*
 
  💥 𝑼𝑺𝑬 𝑨𝑵𝒀 𝑪𝑶𝑴𝑴𝑨𝑵𝑫 𝑻𝒀𝑷𝑬 𝑻𝑯𝑰𝑺 𝑭𝑶𝑹𝑴𝑨𝑻 👇 
  " *${prefix}<Command name>* ".
@@ -5244,7 +5228,7 @@ case '':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-      mikupic ='https://wallpapercave.com/wp/wp10524580.jpg'
+      mikupic ='https://i.postimg.cc/Dfc8G2D5/Generated-Image-Algyxz1.png'
     
         
  const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
